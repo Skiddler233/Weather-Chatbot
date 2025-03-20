@@ -4,7 +4,6 @@ import requests
 import constants
 import json
 import time
-from datetime import datetime
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 import os
