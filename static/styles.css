@@ -43,3 +43,65 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+#location-search-container {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#location-search-container input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#location-search-container button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#location-coords {
+    margin-top: 10px;
+}
+
+#location-coords button {
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.command-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.command-table th, .command-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.command-table th {
+    background-color: #f2f2f2;
+}
+
+.command-table td {
+    border-top: 1px solid #ddd;
+}
+
+.command-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

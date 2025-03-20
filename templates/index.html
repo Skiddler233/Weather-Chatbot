@@ -1,20 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Traveller</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+        const API_KEY = "{{ api_key }}";
+    </script>
 </head>
 <body>
     <h1>The Traveller</h1>
+
     <div id="chat-container">
         <div id="messages"></div>
         <div id="user-input">
             <input type="text" id="message" placeholder="Type your message here...">
             <button onclick="sendMessage()">Send</button>
         </div>
+    </div>
+
+    <div id="location-search-container">
+        <h3>Search for a Location</h3>
+        <input type="text" id="location-search" placeholder="Enter location name...">
+        <button onclick="searchLocation()">Search</button>
+        <!-- Display Coordinates -->
+        <div id="location-coords" style="display:none;">
+            <p>Coordinates: <span id="coords-output"></span></p>
+            <!-- Command to save the location -->
+            <p id="save-command"></p>
+            <button id="copy-coords-button">Copy Command</button>
+        </div>
+
+        <!-- Success message for copying -->
+        <div id="success-message" style="display:none; color: green;">Command copied successfully!</div>
+
+        </div>
+    </div>
+    <div>
+        <h3>Available Commands</h3>
+        <table class="command-table">
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Weather</td>
+                    <td>weather london</td>
+                </tr>
+                <tr>
+                    <td>Recommend</td>
+                    <td>recommend london bristol cambridge</td>
+                </tr>
+                <tr>
+                    <td>Save</td>
+                    <td>save london 51.5085 -0.1257</td>
+                </tr>
+            </tbody>
+        </table>
+
     </div>
 </body>
 </html>

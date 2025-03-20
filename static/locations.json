@@ -1,0 +1,58 @@
+{
+    "Cumbria": {
+        "lat": 54.4609,
+        "lon": -3.0886
+    },
+    "Corfe Castle": {
+        "lat": 50.6395,
+        "lon": -2.0566
+    },
+    "The Cotswolds": {
+        "lat": 51.833,
+        "lon": -1.8433
+    },
+    "Cambridge": {
+        "lat": 52.2053,
+        "lon": 0.1218
+    },
+    "Bristol": {
+        "lat": 51.4545,
+        "lon": -2.5879
+    },
+    "Oxford": {
+        "lat": 51.752,
+        "lon": -1.2577
+    },
+    "Norwich": {
+        "lat": 52.6309,
+        "lon": 1.2974
+    },
+    "Stonehenge": {
+        "lat": 51.1789,
+        "lon": -1.8262
+    },
+    "Watergate Bay": {
+        "lat": 50.4429,
+        "lon": -5.0553
+    },
+    "Birmingham": {
+        "lat": 52.4862,
+        "lon": -1.8904
+    },
+    "York": {
+        "lat": 53.959,
+        "lon": -1.0815
+    },
+    "Forster": {
+        "lat": -32.1667,
+        "lon": 152.5167
+    },
+    "Northbridge": {
+        "lat": 42.1515,
+        "lon": -71.6495
+    },
+    "London": {
+        "lat": 51.5085,
+        "lon": -0.1257
+    }
+}
