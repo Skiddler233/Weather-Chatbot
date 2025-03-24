@@ -1,6 +1,8 @@
 Hi!
 
-This chat bot works more like my own little commandline for Weather.
+To start, run 'pip install requirements' to install all required packages
+
+This chatbot works more like my own little commandline for Weather.
 
 There are some commands below to get information and some ways to make it your own for faster and more accurate data.
 

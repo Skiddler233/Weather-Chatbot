@@ -12,6 +12,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = "Secret Key"
 socketio = SocketIO(app, cors_allowed_origins="*")
 
+
 class LocationManager:
     def __init__(self, json_file='static/locations.json'):
         self.json_file = json_file
