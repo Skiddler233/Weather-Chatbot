@@ -1,6 +1,6 @@
 Hi!
 
-To start, run 'pip install requirements' to install all required packages
+To start, run 'pip install -r requirements' to install all required packages
 
 This chatbot works more like my own little commandline for Weather.
 
@@ -19,3 +19,6 @@ This will write the location and its co-ordinates to a json file to ensure you a
 Rest assured, there is a way to look up the co-ordinates on the app and a one-click solution to copy the command to clipboard.
 e.g. save london 51.5085 -0.1257
 
+These commands are on the webpage as well.
+
+Thanks!
