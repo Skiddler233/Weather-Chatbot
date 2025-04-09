@@ -1,2 +1,0 @@
-API_KEY = "dcddc7e419a6bd50c1d8b07ad0aa8eb2"
-GOOGLE_MAPS_KEY = "AIzaSyAt6O_Omz8a0NGv_Bn80rKFw6_7qGWa3Xw"
